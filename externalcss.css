@@ -1,0 +1,22 @@
+/*applies to all*/
+body{background-color:black;}
+body{color:white;}
+a{color:red;}
+#heading{text-align:center;} /*switch from id heading to make them id "header" I think it may just be easier if it is the standard*/
+#copyright{text-align:center;}
+
+/*multiple pages (it applies to)*/
+.embeded-form{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+/*Index (it applies to)*/
+#headshot-2019{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+.bio{text-align:center;}
+
+/*note I have not yet added Graphics gallery to this*/

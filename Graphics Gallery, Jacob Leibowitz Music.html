@@ -1,0 +1,124 @@
+<!--12:25 PM 7/2/2020-->
+<!DOCTYPE html>
+<html lang="en"> <!--should I include a country code?-->
+<head>
+<meta charset="utf-8">
+<title>Graphics Gallery, Jacob Leibowitz Music</title>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*my every day stylings*/
+body{background-color:black;}
+body{color:white;}
+#heading{text-align:center;}
+a{color:red;}
+#copyright{text-align:center;} /*why does this not work?*/
+
+</style>
+</head>
+<body>
+<a href="Index.html">
+<img title="To the home page." src="Media for website/JLM Stylized for h1.png" width="60" alt="Jacob Leibowitz Music logo"><!--how to get height = to J. or alternativley I can just choose a better place to put it.-->
+</a>
+<div id="heading">
+	<h1>Jacob Leibowitz</h1>
+	<h2>Graphics Gallery</h2>
+</div>
+
+<div id="menu"><!--my menu items-->
+	<a href="Index.html">Home</a><br><!--get rid of on the home page?-->
+	<a href="Graphics Gallery, Jacob Leibowitz Music.html">Graphics Gallery</a><br>
+	<a href="Works Written, Jacob Leibowitz Music.html">Works Written</a><br>
+	<a href="contact form-jlm.html">Contact Me</a><br>
+	<!--<a href="#listen">Listen</a> (see if you can smooth this scrolling) -->
+</div>
+<!-- can I insert a small space between the menu and the images?-->
+<!-- make it so one can Click on the images to be redirected to that works page, and maybe write a little thing telling the website user that.-->
+<!--Question: what do I do with this <a> stuff Answer: it is to hyper link. Hyper link it to each pieces personal webpage.-->
+<div class="responsive">
+  <div class="gallery">
+	<img src="media for website/flying fingers and muting hand with cloth crop.png" alt="Graphic Element from <em>For RP2</em>. Fingers flying across the keyboard and a hand with a cloth muting the piano strings." height="600"> <!--why is the height not matching the gestural pitches picture hike-->
+    <div class="desc">Graphic Element from <em>For RP2</em>. Fingers flying across the keyboard and a hand with a cloth muting the piano strings.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="media for website/Nighturts engraving with tdl pg8 (beamed).png" alt="Page 8 from <em>Nighturts</em>" height="600">
+    <div class="desc">Page 8 from <em>Nighturts</em></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  <!--possibly crop out the frame so it is just the graphic for this image.-->
+      <img src="media for website/Graphical Element from Gestural Pitches.png" alt="Graphic element from <em>Gestural Pitches</em>." height="600">
+    <div class="desc">Graphic element from <em>Gestural Pitches</em>.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="media for website/ACCORDION FOR THE PASSIVE AGGRESSIVE. - spatial notation draft cropped.png" alt="A draft of <em>ACCORDION FOR THE PASSIVE AGGRESSIVE.</em> that utilizes spatial notation." height="600">
+    <div class="desc">A draft of <em>ACCORDION FOR THE PASSIVE AGGRESSIVE.</em> that utilizes spatial notation.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>I love the striking visual aspect of graphic scores. These four images express four different ways I've used graphic elements in my scores.</p>
+<ul>
+<li>In <em>For RP2</em>, graphic elements were predominantly used as a reminder of text instructions.</li>
+<li>In <em>Nighturts</em>, the lines were used as a way to show straight, abrupt, and parabolic increases and decreases in tempo and volume, as well as a way to simplify visuals using a cut-away score.</li> 
+<li><em>Gestural Pitches</em> uses its graphic elements as a way of showing pitch information relative to previous pitches. </li>
+<li>Lastly, I love the ambiguity, yet visual exactness, of spatial notation, which is why I used it in a draft of <em>ACCORDION FOR THE PASSIVE AGGRESSIVE.</em> However, ultimately I decided to use more standard notation combined with the instructions “very free rhythm” and “approximately in time.”</li>
+</ul>
+</div>
+ <footer id="copyright"> <small>Copyright &copy; 2020 Jacob Leibowitz Music | All rights reserved.</small> </footer>
+</body>
+</html>
