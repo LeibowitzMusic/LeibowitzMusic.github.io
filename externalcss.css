@@ -11,6 +11,7 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+
 /*index (it applies to)*/
 #headshot-2019{
 display:block;
@@ -19,4 +20,13 @@ margin-right:auto;
 }
 .bio{text-align:center;}
 #listen_header{text-align:center;}
+
+/*works writtens(it applies to)*/
+table{width:100%;}
+table, th, td{
+border:1px solid white;
+border-collapse:collapse;
+}
+
+
 /*note I have not yet added Graphics gallery to this*/
