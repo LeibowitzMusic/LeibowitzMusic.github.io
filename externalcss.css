@@ -4,6 +4,7 @@ body{color:white;}
 a{color:red;}
 #heading{text-align:center;} /*switch from id heading to make them id "header" I think it may just be easier if it is the standard*/
 #copyright{text-align:center;}
+.centered{text-align:center;}
 
 /*multiple pages (it applies to)*/
 .embeded-form{
@@ -18,7 +19,7 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
-.bio{text-align:center;}
+/* recordings */
 #listen_header{text-align:center;}
 
 /*works writtens(it applies to)*/
